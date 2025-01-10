@@ -1,0 +1,11 @@
+// what is templates?
+// Templates are usually used to define the generic defination of the function and classes
+// The function id not related to the specific data type
+//and can work with different data types
+
+
+
+/*Function Templates
+   Function templates are use to define the generic defination of function.
+   these are note related to te specific data type ,i can work for all type 
+   of data types */
