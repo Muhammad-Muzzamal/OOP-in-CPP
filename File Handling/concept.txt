@@ -1,0 +1,24 @@
+what is file?
+
+file is a collecton of related records.
+a record can contain data obutentity.
+a file is use to save any type of data .
+files are stored on the secondary dtorage.
+
+Advantages of Files:
+
+1: it is use to store large amount of data permanentaly.
+2: file can be update easily .
+3: one file is use to many programs for same input.
+
+
+types of files:
+
+Text file (readable and printale)
+biary file (contain non readable bianry code)
+
+
+file access methods:
+
+sequential access methods
+random accesss methods
