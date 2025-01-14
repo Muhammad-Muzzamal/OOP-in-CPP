@@ -1,6 +1,7 @@
 /Func-template.exe
 *task1.exe
 *task2.exe
+*task3.exe
 *class-tempalte.exe
 *Exceptional_handling1.exe
 *Exceptional_handling2.exe
@@ -13,3 +14,5 @@
 *concept.exe
 *constructor1.exe
 *constructor2.exe
+*copy_contructor.exe
+*deepcopy1.exe
