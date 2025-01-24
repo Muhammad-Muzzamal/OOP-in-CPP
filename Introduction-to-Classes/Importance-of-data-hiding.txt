@@ -1,0 +1,24 @@
+The Importance of Data Hiding
+
+As a beginning student, you might be wondering why you would want to hide the data that
+is inside the classes you create. As you learn to program, you will be the user of your own
+classes, so it might seem that you are putting forth a great effort to hide data from yourself.
+If you write software in industry, however, the classes that you create will be used as components in large software systems; programmers other than yourself will use your classes. By
+hiding a classs data, and allowing it to be accessed through only the classs member functions, you can better ensure that the class will operate as you intended it to.
+
+
+بطور ایک نئے طالب علم، آپ سوچ رہے ہوں گے کہ آپ کو اپنی بنائی ہوئی کلاسز کے اندر موجود ڈیٹا کو چھپانے کی ضرورت کیوں ہے۔ جب آپ خود پروگرامنگ سیکھ رہے ہوتے ہیں، تو آپ ہی اپنی کلاسز کے صارف ہوتے ہیں، اس لیے ایسا محسوس ہو سکتا ہے کہ آپ خود سے ہی ڈیٹا کو چھپانے کی کوشش کر رہے ہیں۔ لیکن جب آپ عملی زندگی میں سافٹ ویئر ڈیولپمنٹ کریں گے، تو آپ کی بنائی ہوئی کلاسز دوسرے پروگرامرز بھی استعمال کریں گے جو کسی بڑے سافٹ ویئر سسٹم پر کام کر رہے ہوں گے۔  
+
+ڈیٹا کو چھپانے کا مطلب یہ ہے کہ آپ کلاس کے اندر موجود معلومات کو براہِ راست قابلِ رسائی نہ رکھیں، بلکہ انہیں صرف مخصوص ممبر فنکشنز (جیسے getters اور setters) کے ذریعے ہی دستیاب کریں۔ اس کا فائدہ یہ ہوتا ہے کہ:  
+
+1. **ڈیٹا کی حفاظت** – اگر ڈیٹا کو براہِ راست تبدیل کرنے کی اجازت ہو تو غلطی سے غیر متوقع تبدیلیاں ہو سکتی ہیں، جو سسٹم کے خراب ہونے کا باعث بن سکتی ہیں۔  
+
+2. **کنٹرول میں اضافہ** – جب ڈیٹا ممبر فنکشنز کے ذریعے ایکسیس ہوتا ہے تو آپ یہ یقینی بنا سکتے ہیں کہ ہر تبدیلی درست طریقے سے کی جا رہی ہے اور غلط ویلیوز کو روکا جا رہا ہے۔  
+
+3. **
+کوڈ کی بہتر مینٹیننس**
+ – جب آپ کا کوڈ کسی بڑے سافٹ ویئر میں استعمال ہوگا، تو اگر ڈیٹا چھپا کر رکھا گیا ہو، تو اسے تبدیل کرنا آسان ہوگا کیونکہ باقی سسٹم پر اثر نہیں پڑے گا۔  
+
+4. **سادگی اور سہولت** – جب آپ ڈیٹا کو کنٹرول شدہ طریقے سے فراہم کرتے ہیں، تو دوسرے پروگرامرز کے لیے آپ کی کلاسز کو سمجھنا اور استعمال کرنا آسان ہو جاتا ہے۔  
+
+مختصراً، جب آپ اپنی کلاسز میں ڈیٹا کو چھپاتے ہیں اور اسے صرف ممبر فنکشنز کے ذریعے ایکسیس کرتے ہیں، تو آپ نہ صرف اپنے کوڈ کو محفوظ بناتے ہیں بلکہ اسے مزید مستحکم اور قابل بھروسہ بھی بناتے ہیں۔

@@ -1,0 +1,9 @@
+Destructors:
+
+A destructor is a member function that is automatically called when an 
+object is destroyed.
+
+1)Destructors are member functions with the same name as the class, preceded by a tilde
+character (~). For example, the destructor for the Rectangle class would be named
+~Rectangle.
+2)Destructors are automatically called when an object is destroyed.

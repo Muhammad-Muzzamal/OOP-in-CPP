@@ -1,0 +1,32 @@
+there are two type of programming is practice today:
+    Procedural programming
+    Object-Oriented-Programming
+
+
+--> what is procedural programming?
+
+1) The procedural pragramming basically a software writting.
+2) it is a programming practice that focused on the the procedures or actions in the programming.
+3) Data is stored in the collection of variables, structures and coupled with the set of functions that perform operation on it.
+4) variable defination:
+
+    double length;    Holds the rectangle s width
+    double width;     Holds the rectangle s length
+
+5) Function Defination:
+
+    setdata();
+    diaplaylength();
+    displaywidth();
+    displayarea();
+
+
+
+--> what is Object-Oriented-Programming(OOP)?
+
+1) OOP is is centered around the objects.
+2) the objects are created abstract data-type that encapsulate and function together.
+3) Encapsulation refers to the combining of data and code into a single object.
+4) Data hiding refers to an object s ability to hide its data from code that is outside the object.
+5) Object: Object is basically as a "BLue print" of the object may be created from.it serves as a blue-print of a a house.blue-print is not itself a house .it contains the details description about the house.
+6) Instance: "Each object made from the class is callad instancs".

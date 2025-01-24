@@ -1,0 +1,33 @@
+###########################what is constructor?#####################
+
+constructor is a special type of member function which is automatically called when the object is created.
+
+1)A constructor is a member function that has the same name as the class.
+2)It is automatically called when the object is created in memory, or instantiated.
+3)They are very useful for initializing member variables or performing other setup operations. 
+4)Syntax:
+    class Demo
+    {
+    public:
+     Demo(); // Constructor
+    };
+    Demo::Demo()
+    {
+     cout << "Welcome to the constructor!\n";
+    }
+5)There is no return type not even void. 
+6)Classes with No Default Constructor:
+When all of a class s constructors require arguments, then the class does not have a default
+constructor. In such a case you must pass the required arguments to the constructor when
+creating an object. Otherwise, a compiler error will result.
+
+###################constructor overloading#############################3
+
+
+A class can have more than one constructor.
+A class s member functions may be overloaded, including the constructor. One constructor
+might take an integer argument, for example, while another constructor takes a double.
+There could even be a third constructor taking two integers. As long as each constructor
+takes a different list of parameters, the compiler can tell them apart. For example, the
+string class has several overloaded constructors. The following statement creates a
+string object with no arguments passed to the constructor:

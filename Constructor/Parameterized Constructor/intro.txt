@@ -1,0 +1,5 @@
+Parameterized Constructor
+
+A constructor can have parameters, and can accept arguments when an object is created.
+
+1)Constructors may accept arguments in the same way as other functions.
