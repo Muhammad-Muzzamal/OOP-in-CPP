@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include<iomanip>
+#include <iomanip>
 using namespace std;
 
 class Student
@@ -18,7 +18,7 @@ public:
     Student(string n)
     {
         name = n;
-        rollNo=0;
+        rollNo = 0;
     }
     Student() {}
     void display()
@@ -38,16 +38,9 @@ int main()
                           Student("Faran")};
     for (int i = 0; i < 6; i++)
     {
-        cout<<"\nStudent # "<<(i+1)<<endl;
+        cout << "\nStudent # " << (i + 1) << endl;
         students[i].display();
     }
-    
+
     return 0;
-
-
-
-
-
-
-    
 }
