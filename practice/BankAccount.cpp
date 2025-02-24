@@ -63,32 +63,30 @@ public:
     }
 };
 void manue()
-    {
-        cout << "\n------------------MENUE----------------------\n";
-        cout << "A) Set Account type.\n";
-        cout << "B) Check Balance.\n";
-        cout << "C) Deposit Amount.\n";
-        cout << "D) Withdraw Amount.\n";
-        cout << "E) Interest rate of current year.\n";
-        cout << "F) Interest Earned.\n";
-        cout << "G) Exit Program.\n\n";
-    }
+{
+    cout << "\n------------------MENUE----------------------\n";
+    cout << "A) Set Account type.\n";
+    cout << "B) Check Balance.\n";
+    cout << "C) Deposit Amount.\n";
+    cout << "D) Withdraw Amount.\n";
+    cout << "E) Interest rate of current year.\n";
+    cout << "F) Interest Earned.\n";
+    cout << "G) Exit Program.\n\n";
+}
 
 int main()
 {
     BankAccount a;
 
-    
     manue();
     switch (char)
     {
     case 'A':
     case 'a':
-        cout<<"Enter Account Type: ";
-        getline(cin,acctype);
-        a.setaccountType(acctype)
-        break;
-    
+        cout << "Enter Account Type: ";
+        getline(cin, acctype);
+        a.setaccountType(acctype) break;
+
     default:
         break;
     }
